@@ -26,8 +26,7 @@
 "/Scaling-Factor/save_scaling.py"
 
 # TTS (MAIN)
-- Git Clone And SetUp vakyansh TTS from
-" [vakyansh-tts]hub.com/Open-Speech-EkStep/vakyansh-tts.git)"
+- Git Clone and Set Up vakyansh TTS from [vakyansh-tts](https://github.com/Open-Speech-EkStep/vakyansh-tts.git)
 - Modify the training Scripts in "src/glow_tts" replace with
 - train_modified.py
 - models_modified.py
