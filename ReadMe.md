@@ -2,6 +2,7 @@
 
 # Word Alignments
 - Get the word level Alignments using whisperX .
+"/whisperx/English_Word_Align.py"
 
 # Feature Extraction 
 - Save the features (f0+energy) and (f0+energy+sdc+mfcc) for each frame for the english data 
@@ -19,3 +20,21 @@
 
 - Obtain the mappings between the english and hindi words
 "/Machine_Translation/simAlign.py"
+
+# Scaling Factor
+- Find the scaling facotors for each utterance in the english dataset and save a json file
+"/Scaling-Factor/save_scaling.py"
+
+# TTS (MAIN)
+- Git Clone And SetUp vakyansh TTS from
+" [text](https://github.com/Open-Speech-EkStep/vakyansh-tts.git)
+- Modify the training Scripts in "src/glow_tts" replace with
+- train_modified.py
+- models_modified.py
+- data_utils_temp.py
+- common_modified.py
+
+# TTS PDE MODIFIER
+- While inference modify the Script in "utils/tts.py" replace with 
+- tts_modified.py
+
