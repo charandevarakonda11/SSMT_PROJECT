@@ -27,7 +27,7 @@
 
 # TTS (MAIN)
 - Git Clone And SetUp vakyansh TTS from
-" [text](https://github.com/Open-Speech-EkStep/vakyansh-tts.git)
+" [vakyansh-tts]hub.com/Open-Speech-EkStep/vakyansh-tts.git "
 - Modify the training Scripts in "src/glow_tts" replace with
 - train_modified.py
 - models_modified.py
@@ -38,3 +38,11 @@
 - While inference modify the Script in "utils/tts.py" replace with 
 - tts_modified.py
 
+# Evalutaion for Stress Transter
+- Get the Word Level Alignments for hindi synthetic data generated from TTS using 
+"/whisperx/Hindi_Word_Align.py"
+- Get the Frame Level Stress Labels as the stress marks are availble for hindi words
+- Train the Stress Detection Model from
+"/Stress_Dection_Model/RFC"
+"/Stress_Dection_Model/LPA"
+"/Stress_Dection_Model/TDNN
