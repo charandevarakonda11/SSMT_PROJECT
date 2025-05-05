@@ -1,7 +1,7 @@
 # Stress Tranfer in SSMT
 
 # Word Alignments
-- Get the word level Alignments using whisperX 
+- Get the word level Alignments using whisperX .
 
 # Feature Extraction 
 - Save the features (f0+energy) and (f0+energy+sdc+mfcc) for each frame for the english data 
